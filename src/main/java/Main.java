@@ -29,7 +29,7 @@ public class Main {
             })
 
                 .get("testing", ctx -> {
-                    ctx.render("look at this!");
+                    ctx.render("look at something else!");
                 })
 
                 .get("vik1", ctx -> {
