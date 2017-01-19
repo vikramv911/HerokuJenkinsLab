@@ -40,6 +40,10 @@ public class Main {
                         ctx.render("vikram!");
                     })
 
+                    .get("vik2", ctx -> {
+                        ctx.render("vikram2!");
+                    })
+
 
                 .get("db", ctx -> {
                   boolean local = !"cedar-14".equals(System.getenv("STACK"));
